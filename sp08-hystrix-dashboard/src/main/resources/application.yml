@@ -1,12 +1,6 @@
 spring: 
-  cloud:
-    config:
-      discovery:
-        enabled: true
-        service-id: config-server
-      name: hystrix-dashboard
-      profile: dev
-    
+  application:
+    name: hystrix-dashboard    
 server:
   port: 4001
 
